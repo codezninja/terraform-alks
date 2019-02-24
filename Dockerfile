@@ -6,7 +6,7 @@ ARG user=jenkins
 ARG uid=1000
 
 RUN adduser -D -u ${uid} ${user}
-USER ${USER}
+USER ${user}
 
 ENV TERRAFORM_VERSION=$VERSION
 COPY install_alks.sh /install_alks.sh
