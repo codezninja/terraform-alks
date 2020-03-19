@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=latest
+VERSION=0.12.23
 
 if [ "$SOURCE_BRANCH" != 'master' ]; then
   VERSION=$SOURCE_BRANCH
